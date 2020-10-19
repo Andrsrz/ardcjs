@@ -1,0 +1,11 @@
+{
+  "name": "ardcjs",
+  "version": "0.0.1",
+  "description": "JS Front-end Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Andres Ruiz",
+  "license": "MIT"
+}
