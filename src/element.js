@@ -4,11 +4,5 @@ const createElement = tagName => (strings, ...args) => ({
 		acc + currentString + (args[index] || ""), "")
 });
 
-const div = createElement("div");
-const p = createElement("p");
-
-const firstName = 'Andres';
-const lastName = 'Ruiz';
-
-const template = p`Hello ${firstName} ${lastName}!`;
-console.log(template);
+export const div = createElement("div");
+export const p = createElement("p");
